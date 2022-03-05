@@ -1,0 +1,14 @@
+See file:///C:/Users/jackm/Documents/robot/robotTest/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling test.cpp successful.
+
+compiling disabled.cpp successful.
+
+compiling teleop.cpp successful.
+
+compiling autonomous.cpp successful.
+
+compiling Robot.cpp successful.
+
+compiling main.cpp successful.
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///C:/Users/jackm/Documents/robot/robotTest/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.
