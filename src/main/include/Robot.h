@@ -25,7 +25,19 @@ public:
   void TestInit() override;
   void TestPeriodic() override;
 
-  frc::PWMSparkMax motorTest{0};
+  frc::PWMSparkMax d_motor_l{0};
+  frc::PWMSparkMax d_motor_r{1};
+
+  frc::DifferentialDrive m_drive{d_motor_l, d_motor_r};
+
+  frc::PWMSparkMax motor_one{2};
+  frc::PWMSparkMax motor_one{3};
+  frc::PWMSparkMax motor_one{4};
+  frc::PWMSparkMax motor_one{5};
+  frc::PWMSparkMax motor_one{6};
+  frc::PWMSparkMax motor_one{7};
+  frc::PWMSparkMax motor_one{8};
+  frc::PWMSparkMax motor_one{9};
 
 private:
   frc::SendableChooser<std::string> m_chooser;

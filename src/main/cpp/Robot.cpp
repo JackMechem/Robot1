@@ -10,4 +10,6 @@ void Robot::RobotInit() {
   frc::SmartDashboard::PutData("Auto Modes", &m_chooser);
 }
 
-void Robot::RobotPeriodic() {}
+void Robot::RobotPeriodic() {
+  myDrive.ArcadeDrive(/*-driveStick.GetY(), driveStick.GetX()*/);
+}
